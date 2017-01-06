@@ -1,0 +1,15 @@
+"D:\software\IAR for ARM\arm\bin\armproc.dll" 
+
+"D:\software\IAR for ARM\arm\bin\armstlink2.dll" 
+
+"E:\LiteOS\新建文件夹\sample\LiteOS_All\demos\LED_Toggle\EWARM\cortex-m4\stm32f411\Exe\Huawei_LiteOS.out" 
+
+--plugin "D:\software\IAR for ARM\arm\bin\armbat.dll" 
+
+--device_macro "D:\software\IAR for ARM\arm\config\debugger\ST\STM32F4xx.dmac" 
+
+--flash_loader "D:\software\IAR for ARM\arm\config\flashloader\ST\FlashSTM32F411xE.board" 
+
+
+
+

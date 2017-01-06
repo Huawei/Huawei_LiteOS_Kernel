@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>363339228</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispatch.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw_tick.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\app\dht_test .c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\driver\dht11_driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\bsp\sample\config\los_config.c</file>
+      <file>$PROJ_DIR$\config\usart_config.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\driver\delay_driver.c</file>
+      <file>$PROJ_DIR$\config\gpio_config.c</file>
+      <file>$PROJ_DIR$\Obj\los_sem.pbi</file>
+      <file>$PROJ_DIR$\Obj\Huawei_LiteOS.pbd</file>
+      <file>$PROJ_DIR$\Obj\los_memstat.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\Obj\los_hwi.pbi</file>
+      <file>$PROJ_DIR$\Huawei_LiteOS_cortexMF411.icf</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmSimd.h</file>
+      <file>$PROJ_DIR$\Obj\stm32f4xx_usart.pbi</file>
+      <file>$PROJ_DIR$\Exe\Huawei_LiteOS.bin</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Obj\gpio_config.o</file>
+      <file>$PROJ_DIR$\Obj\los_hw_tick.o</file>
+      <file>$PROJ_DIR$\Obj\usart_config.o</file>
+      <file>$PROJ_DIR$\Obj\stm32f4xx_usart.o</file>
+      <file>$PROJ_DIR$\Obj\los_config.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\List\Huawei_LiteOS.map</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\Obj\los_task.o</file>
+      <file>$PROJ_DIR$\Obj\los_hwi.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\Obj\los_event.o</file>
+      <file>$PROJ_DIR$\Obj\stm32f4xx_rcc.o</file>
+      <file>$PROJ_DIR$\config\spi_config.h</file>
+      <file>$PROJ_DIR$\config\usart_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\app\web_server.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Lib\IAR\iar_cortexM4lf_math.a</file>
+      <file>$PROJ_DIR$\Obj\los_multipledlinkhead.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_sys.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\led_driver.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_tick.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_swtmr.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_membox.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_queue.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_task.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_priqueue.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_memory.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_queue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_swtmr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_timeslice.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_event.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_memory.h</file>
+      <file>$PROJ_DIR$\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Obj\los_memstat.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\delay_driver.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_base.h</file>
+      <file>$PROJ_DIR$\Obj\los_misc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h</file>
+      <file>$PROJ_DIR$\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_event.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_swtmr.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_task.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_sys.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_base.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_sem.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_mux.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_membox.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_membox.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_priqueue.h</file>
+      <file>$PROJ_DIR$\Obj\los_swtmr.o</file>
+      <file>$PROJ_DIR$\Obj\dht11_driver.o</file>
+      <file>$PROJ_DIR$\Obj\los_memory.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Obj\dht11_driver.pbi</file>
+      <file>$PROJ_DIR$\Obj\los_tick.o</file>
+      <file>$PROJ_DIR$\Obj\los_sys.o</file>
+      <file>$PROJ_DIR$\Obj\delay_driver.o</file>
+      <file>$PROJ_DIR$\Obj\dht_test .pbi</file>
+      <file>$PROJ_DIR$\Obj\los_membox.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\app\dht_test.h</file>
+      <file>$PROJ_DIR$\Obj\delay_driver.pbi</file>
+      <file>$PROJ_DIR$\Obj\los_multipledlinkhead.pbi</file>
+      <file>$PROJ_DIR$\Obj\los_sys.pbi</file>
+      <file>$PROJ_DIR$\Obj\los_memory.pbi</file>
+      <file>$PROJ_DIR$\Obj\dht_test .o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\dht11_driver.h</file>
+      <file>$PROJ_DIR$\Obj\stm32f4xx_gpio.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Obj\los_priqueue.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h</file>
+      <file>$PROJ_DIR$\Obj\los_membox.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\misc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_multipledlinkhead.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_multipledlinkhead.ph</file>
+      <file>$PROJ_DIR$\Obj\los_swtmr.pbi</file>
+      <file>$PROJ_DIR$\Obj\los_queue.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Obj\stm32f4xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h</file>
+      <file>$PROJ_DIR$\Obj\los_task.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h</file>
+      <file>$PROJ_DIR$\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_mux.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_sem.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_task.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_queue.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memstat.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_event.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_tick.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h</file>
+      <file>$PROJ_DIR$\Obj\los_queue.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_typedef.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_mux.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_sem.h</file>
+      <file>$PROJ_DIR$\Obj\los_timeslice.o</file>
+      <file>$PROJ_DIR$\Obj\los_tick.pbi</file>
+      <file>$PROJ_DIR$\Obj\gpio_config.pbi</file>
+      <file>$PROJ_DIR$\Obj\los_dispatch.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Obj\los_hw.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Obj\los_sem.o</file>
+      <file>$PROJ_DIR$\Obj\misc.o</file>
+      <file>$PROJ_DIR$\Obj\los_mux.o</file>
+      <file>$PROJ_DIR$\Obj\los_mux.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Obj\stm32f4xx_rcc.pbi</file>
+      <file>$PROJ_DIR$\config\gpio_config.h</file>
+      <file>$PROJ_DIR$\Exe\Huawei_LiteOS.out</file>
+      <file>$PROJ_DIR$\Obj\los_priqueue.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Obj\los_config.pbi</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\Obj\los_misc.pbi</file>
+      <file>$PROJ_DIR$\Obj\los_vendor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\app\ip_arp_udp_tcp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\include\enc28j60_driver.h</file>
+      <file>$PROJ_DIR$\Obj\los_hw.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\app\net.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_tick.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_typedef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_memstat.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memory.inc</file>
+      <file>$PROJ_DIR$\Obj\los_hw_tick.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_sys.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_list.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_printf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_priqueue.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_errno.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_vendor.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_event.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_membox.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memory.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memstat.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\misc\los_misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_mux.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_priqueue.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_queue.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_sem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_swtmr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_sys.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_task.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_tick.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_timeslice.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\src\misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</file>
+      <file>$PROJ_DIR$\user\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\Include\stm32f4xx_conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h</file>
+      <file>$PROJ_DIR$\Obj\los_event.pbi</file>
+      <file>$PROJ_DIR$\Obj\los_timeslice.pbi</file>
+      <file>$PROJ_DIR$\Obj\usart_config.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_typedef.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_task.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_sys.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_swtmr.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_membox.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_membox.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_sys.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_base.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_queue.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_queue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_errno.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_tick.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_printf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_base.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_typedef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_list.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_event.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\bsp\sample\config\los_config.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_vendor.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_tick.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispatch.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw_tick.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_priqueue.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_task.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_sys.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_swtmr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_timeslice.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_priqueue.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_membox.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_event.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_mux.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_queue.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_event.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_sys.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_swtmr.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_task.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_mux.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_tick.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_membox.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_timeslice.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_sem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_sem.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memstat.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\misc\los_misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memory.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_sem.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_queue.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_memstat.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memory.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memstat.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.inc</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_sem.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_event.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_priqueue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_priqueue.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_task.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_mux.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_mux.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_multipledlinkhead.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_multipledlinkhead.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_memory.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_memory.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\include\los_tick.ph</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\include\los_swtmr.h</file>
+      <file>$PROJ_DIR$\user\readme.txt</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispatch.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw_tick.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 155 172 156 110 59 94 165 135 142 143 152 30 130 137 101 127 136 163 66 47 162 161 116 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 66 47 162 161 155 116 164 67 68 167 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 140 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\app\dht_test .c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160 217 215 127 30 219 27 61 58 220 142 128 196 171 96 204 37 205 218 213 216 130 63 199 90 214 228 135 143 136 152 137 101 233 33 21 170 118 103 169 49 84 154 145 18 29 197 105 173 148 198 106 108 168 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 204 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 205 233 214 220 58 160 33 128 145 29 21 27 18 154 196 170 197 171 105 118 173 63 148 103 198 61 106 169 108 199 168 49 166 96 90 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\dht11_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 233 160 171 213 61 205 218 58 154 128 142 137 143 63 199 136 219 204 33 196 27 152 101 21 170 118 103 169 49 217 220 215 135 90 145 18 30 130 29 197 105 173 148 198 106 108 168 166 214 216 228 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 160 33 128 142 143 152 30 130 137 101 145 29 21 27 18 154 196 170 197 171 105 118 173 63 148 103 198 61 106 169 108 199 168 49 166 96 204 217 216 218 228 215 135 127 136 219 213 205 233 214 220 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\bsp\sample\config\los_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 161 155 66 47 116 38 150 36 160 33 128 145 29 21 27 18 154 196 170 197 171 105 118 173 63 148 103 198 61 106 169 108 199 168 49 166 96 37 149 153 92 77 42 139</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\config\usart_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 142 135 49 101 170 63 154 196 27 152 21 118 169 160 61 96 33 128 137 143 171 199 127 37 145 18 30 130 29 197 105 173 148 198 106 108 168 166 136</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 160 33 128 142 143 152 30 130 137 101 145 29 21 27 18 154 196 170 197 171 105 118 173 63 148 103 198 61 106 169 108 199 168 49 166 96 135 127 136</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\delay_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\config\gpio_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148 143 142 61 33 168 160 128 145 130 105 106 63 154 18 30 29 197 173 198 108 166 139 196 27 152 137 101 21 170 171 118 103 169 199 49 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139 160 33 128 142 143 152 30 130 137 101 145 29 21 27 18 154 196 170 197 171 105 118 173 63 148 103 198 61 106 169 108 199 168 49 166 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Exe\Huawei_LiteOS.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 17 81 75 89 22 26 126 34 129 23 32 95 76 57 60 40 133 141 119 131 74 80 31 79 123 147 62 132 91 35 25 24 39 13 14 12 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 162 37 160 33 128 145 29 21 27 18 154 196 170 197 171 105 118 173 63 148 103 198 61 106 169 108 199 168 49 166 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_vendor.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_event.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64 54 116 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 167 73 66 47 162 161 155 164</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_membox.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71 45 72 94 156 110 165 135 142 143 152 30 130 137 101 127 136 68 59 163 172 161 162 92 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 158 50 55 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 98 97 157 66 47 162 161 155 116 92 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memstat.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115 157 156 110 66 47 59 94 165 135 142 143 152 30 130 137 101 127 136 163 172 162 161 155 116</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\misc\los_misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 67 162 161 66 47 155 116</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 98 97 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_mux.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70 111 66 47 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 162 161 155 116 121 50 55 167 73 164</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_priqueue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 167 73 163 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 172 68 66 47 162 161 155 116 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 46 51 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 45 72 50 55 167 73 66 47 162 161 155 116 164 92 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_sem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 112 122 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 47 162 161 155 116 68 50 55 167 73 67 66 164</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_swtmr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 44 52 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 47 162 161 155 116 68 45 72 50 55 46 51 66 92 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_sys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 67 68 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 162 161 43 155</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113 66 47 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 162 161 155 116 68 50 55 167 73 112 122 111 121 164 92 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_tick.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117 43 155 172 156 110 68 59 94 165 135 142 143 152 30 130 137 101 127 136 163 44 52 47 162 161 116 66 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_timeslice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 201</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67 68 59 110 156 94 165 135 142 143 152 30 130 137 101 127 136 163 172 162 161 66 47 155 116 43 120</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 128 171 61 160 33 142 137 143 63 199 154 196 27 152 101 21 170 118 103 169 49 145 18 30 130 29 197 105 173 148 198 106 108 168 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96 160 33 128 142 143 152 30 130 137 101 145 29 21 27 18 154 196 170 197 171 105 118 173 63 148 103 198 61 106 169 108 199 168 49 166</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143 160 128 148 142 168 33 145 130 105 106 61 154 18 30 29 197 173 198 108 166 63 196 27 152 137 101 21 170 171 118 103 169 199 49 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 160 33 128 142 143 152 30 130 137 101 145 29 21 27 18 154 196 170 197 171 105 118 173 148 103 198 61 106 169 108 199 168 49 166 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160 154 61 171 96 128 142 137 143 63 199 33 196 27 152 101 21 170 118 103 169 49 145 18 30 130 29 197 105 173 148 198 106 108 168 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 160 33 128 142 143 152 30 130 137 101 145 29 21 27 18 154 196 170 197 171 105 118 173 63 148 103 198 106 169 108 199 168 49 166 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\lib\cortex-m4\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 29 154 30 197 166 160 18 142 173 108 61 33 128 145 143 130 105 148 106 168 49 196 27 152 137 101 21 170 171 118 63 103 169 199 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 160 33 128 142 143 152 30 130 137 101 145 29 21 27 18 154 196 170 197 171 105 118 173 63 148 103 198 61 106 169 108 199 168 166 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160 215 142 217 214 27 61 58 130 228 128 196 171 96 265 127 30 219 216 213 63 199 204 84 218 135 143 136 152 137 101 205 220 90 33 21 170 118 103 169 49 233 37 154 145 18 29 197 105 173 148 198 106 108 168 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 228 218 216 215 135 142 143 152 30 130 137 101 127 136 204 217 219 213 205 233 214 220 265 84 58 160 33 128 145 29 21 27 18 154 196 170 197 171 105 118 173 63 148 103 198 61 106 169 108 199 168 49 166 96 90 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\bsp\sample\config\los_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199 160 219 218 136 36 38 216 135 137 150 63 143 139 265 217 228 152 101 205 128 196 27 171 61 96 214 233 215 213 142 127 30 130 204 220 153 42 33 21 170 118 103 169 49 149 37 92 108 154 145 18 29 197 105 173 148 198 106 168 166 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 205 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 233 214 265 204 220 38 150 36 160 33 128 145 29 21 27 18 154 196 170 197 171 105 118 173 63 148 103 198 61 106 169 108 199 168 49 166 96 37 149 153 92 77 42 139</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_vendor.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127 215 148 30 160 128 233 142 96 168 205 218 213 216 130 61 33 18 105 106 37 217 228 219 135 143 136 152 137 101 49 63 154 145 29 197 173 198 108 166 196 27 21 170 171 118 103 169 199</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 233 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 205 37 160 33 128 145 29 21 27 18 154 196 170 197 171 105 118 173 63 148 103 198 61 106 169 108 199 168 49 166 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_tick.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218 136 205 213 142 130 217 233 206 215 135 143 30 204 220 210 265 272 214 216 228 219 127 152 137 101 273 246 248</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 246 272 214 213 218 216 210 217 228 215 135 142 143 152 30 130 137 101 127 136 219 206 273 204 205 233 220 265 248</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispatch.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218 219 130 214 264 216 135 142 205 234 228 127 30 217 263 265 209 215 213 143 136 152 137 101 204 220 233 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 265 204 205 233 214 220 234 209 210 264 263</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw_tick.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218 205 228 130 233 204 265 214 216 219 135 142 217 273 213 215 127 30 272 143 136 152 137 101 220</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 272 214 213 218 216 217 228 215 135 142 143 152 30 130 137 101 127 136 219 265 204 205 233 220 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_priqueue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217 219 218 130 265 216 135 142 220 210 270 264 263 228 127 30 205 233 236 215 213 143 136 152 137 101 204 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 264 263 219 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 213 210 265 204 205 233 214 220 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218 216 143 101 142 217 92 261 205 213 152 219 271 234 204 220 215 136 137 30 251 210 264 266 265 214 228 135 127 130 233 244 270 263 267 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 244 265 204 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 205 233 214 220 210 271 270 264 263 261 251 266 267 234 92 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_sys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215 143 101 205 218 213 216 152 217 272 209 210 228 219 135 136 137 233 242 142 127 30 130 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 242 209 210 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 205 233 272 214</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_swtmr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 228 219 92 217 218 205 211 273 216 215 142 207 233 206 127 137 101 143 204 210 271 265 213 135 136 30 130 220 270 243 214 208 212 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 243 206 273 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 204 205 233 214 220 210 207 208 271 270 211 212 265 92 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\core\los_timeslice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 201</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215 143 217 218 216 205 213 137 272 136 233 220 265 203 210 228 219 152 101 209 135 142 127 30 130 204 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 209 210 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 205 233 265 204 214 220 272 203</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_event.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204 218 142 219 217 233 228 127 30 220 265 216 135 130 205 264 234 262 215 213 143 136 152 137 101 263 214 241</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 241 262 220 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 264 263 265 204 205 233 214 234</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_mux.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218 219 130 205 217 234 266 216 135 142 204 270 264 267 214 228 127 30 271 265 220 215 213 143 136 152 137 101 233 263 245</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 245 266 265 204 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 205 233 214 220 267 271 270 264 263 234</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 217 92 152 265 219 218 216 143 101 142 270 271 234 215 136 137 207 264 233 211 212 228 135 127 30 130 263 214 205 256 208 204 220 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 256 211 212 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 207 208 271 270 264 263 265 204 205 233 214 220 234 92 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_membox.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219 142 215 217 92 208 216 218 152 233 207 228 127 137 101 143 210 135 136 30 130 213 205 237 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 237 207 208 228 218 216 215 135 142 143 152 30 130 137 101 127 136 210 217 219 213 233 205 92 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 268 143 127 215 269 217 218 213 137 101 219 216 228 142 152 260 135 136 30 130</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 260 269 268 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\ipc\los_sem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218 216 143 101 251 217 209 261 219 213 152 220 271 234 215 136 137 205 233 263 210 264 265 204 228 135 142 127 30 130 214 270 255</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 255 261 251 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 204 205 233 214 220 210 271 270 264 263 209 265 234</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memstat.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214 204 218 130 205 219 228 257 216 135 142 265 127 30 217 213 259 220 215 143 136 152 137 101 233</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 259 257 218 216 265 204 217 228 215 135 142 143 152 30 130 137 101 127 136 219 213 205 233 214 220</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\misc\los_misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219 216 135 136 205 265 217 228 218 137 143 209 233 215 213 152 101 210 220 142 127 30 130 204 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 210 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 209 205 233 265 204 214 220</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Huawei_LiteOS\kernel\base\mem\los_memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215 143 217 135 269 218 213 136 142 137 101 219 265 92 271 257 270 216 228 127 152 268 204 214 258 30 130 205 220 233 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 258 271 270 217 216 218 228 215 135 142 143 152 30 130 137 101 127 136 219 213 269 268 257 265 204 205 233 214 220 92 77</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

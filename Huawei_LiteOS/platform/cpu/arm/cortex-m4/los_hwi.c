@@ -33,7 +33,7 @@
  *---------------------------------------------------------------------------*/
 
 #include "los_hwi.h"
-
+#include "usart_config.h"
 #ifdef __cplusplus
 #if __cplusplus
 extern "C" {
@@ -135,7 +135,9 @@ LITE_OS_SEC_TEXT_INIT VOID osHwiInit()
     UINT32 uwIndex;
     for(uwIndex = OS_M4_SYS_VECTOR_CNT; uwIndex < OS_M4_VECTOR_CNT; uwIndex++)
     {
-        m_pstHwiForm[uwIndex] = osHwiDefaultHandler;
+       
+      m_pstHwiForm[uwIndex] = osHwiDefaultHandler;
+  
     }
 
     /* Interrupt vector table location */

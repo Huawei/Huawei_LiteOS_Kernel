@@ -47,7 +47,10 @@
 __vector_table
     DCD     sfe(CSTACK)
     DCD     Reset_Handler             ; Reset Handler
-
+   
+    THUMB
+    PUBWEAK Reset_Handler
+    SECTION .text:CODE:REORDER:NOROOT(2)
 Reset_Handler
          LDR     R0, =osEnableFPU
          BLX     R0

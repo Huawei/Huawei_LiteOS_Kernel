@@ -37,6 +37,9 @@
 #include "los_task.ph"
 #include "los_config.h"
 
+/***********Apptask.h***********************/
+#include "web_server.h"
+
 #ifdef __cplusplus
 #if __cplusplus
 extern "C" {
@@ -183,27 +186,8 @@ LITE_OS_SEC_TEXT_INIT int osMain(void)
 }
 
 
-/*****************************************************************************
- Function    : main
- Description : Main function entry
- Input       : None
- Output      : None
- Return      : None
- *****************************************************************************/
-LITE_OS_SEC_TEXT_INIT
-int main(void)
-{
-    UINT32 uwRet;
-    uwRet = osMain();
-    if (uwRet != LOS_OK) {
-        return LOS_NOK;
-    }
 
-    LOS_Start();
 
-    for (;;);
-    /* Replace the dots (...) with your own code.  */
-}
 
 void osBackTrace(){}
 

@@ -39,6 +39,8 @@
 #include "los_sem.ph"
 #include "los_mux.ph"
 
+
+   
 #include "los_hw.h"
 #ifdef LOSCFG_LIB_LIBC
 #include "string.h"
@@ -76,10 +78,11 @@ TSKSWITCHHOOK g_pfnTskSwitchHook = NULL;
 LITE_OS_SEC_TEXT VOID osIdleTask(VOID)
 {
 
-    while (1)
+   while (1)
     {
 
     }
+ 
 }
 
 /*****************************************************************************
