@@ -20,7 +20,7 @@ int DHT11_TEST(void)
     {
         if( Read_DHT11 ( & DHT11_Data ) == SUCCESS)
         {             
-            printf("湿度为%d.%d ％RH ，温度为 %d.%d℃ \r\n\n\n",\
+            printf("Humi:%d.%d%RH  Temp:%d.%d 掳C\r\n\n\n",\
             DHT11_Data.humi_int,DHT11_Data.humi_deci,DHT11_Data.temp_int,DHT11_Data.temp_deci);
         }		
         else
