@@ -1,6 +1,6 @@
 /*
 *		 
-*USART2(DEBUG)£º         PA2(TX)
+*USART2(DEBUG)ï¼š         PA2(TX)
 *                      PA3(RX) 
 *
 *
@@ -11,7 +11,7 @@
 *                       |     |     |      |
 * stm32f411_pin       (PA10--PA0---PA1----3.3V)
 *
-Note£ºesp8266 power question£¬Insufficient power supply may cause garbled or without data¡£
+Noteï¼šesp8266 power questionï¼ŒInsufficient power supply may cause garbled or without dataã€‚
 */
 
 #include "esp8266_test.h"
@@ -40,13 +40,13 @@ void ESP8266_Test(void)
         }		
 #endif    
        
-	PC_Usart("\r\n WF-ESP8266 WiFiÄ£¿é²âÊÔÀı³Ì\r\n");                            //Guidance information
+	PC_Usart("\r\n WF-ESP8266 WiFi module test Demo\r\n");                            //Guidance information
 
-        PC_Usart ( "\r\nÇëÊäÈëÄ£¿éµÄ²âÊÔÄ£Ê½µÄ±àºÅ£¬±àºÅÈçÏÂ£º\
-                    \r\n1.STAÄ£Ê½£º TCP Client\
-                    \r\n2.APÄ£Ê½£º AP Server\
-                    \r\n3.STA+APÄ£Ê½£º (STA)TCP Client + (AP)TCP Server\
-                     \r\nÊäÈë¸ñÊ½Îª£º±àºÅ+¿Õ¸ñ£¬µã»÷·¢ËÍ\r\n" );
+        PC_Usart ( "\r\nplease input the test mode number as followï¼š\
+                    \r\n1.STA modeï¼š TCP Client\
+                    \r\n2.AP  modeï¼š AP Server\
+                    \r\n3.STA+AP modeï¼š (STA)TCP Client + (AP)TCP Server\
+                     \r\ninput template asï¼šnumber+spaceï¼Œ click send\r\n" );
 	
         scanf ( "%c",  & cCh );
 
@@ -54,25 +54,25 @@ void ESP8266_Test(void)
         {
 	   case '1':
 		   
-		    PC_Usart("\r\n¼´½«½øĞĞµÄ²âÊÔÊÇ£º1.STAÄ£Ê½£º TCP Client\r\n"); 
+		    PC_Usart("\r\nthe test mode is ï¼š1.STAï¼š TCP Client\r\n"); 
                     ESP8266_STA_TCP_Client ( );
 		    break;
 		
 	   case '2':
-		    PC_Usart("\r\n¼´½«½øĞĞµÄ²âÊÔÊÇ£º2.APÄ£Ê½£º TCP Server\r\n");
+		    PC_Usart("\r\nthe test mode isï¼š2.APï¼š TCP Server\r\n");
                     ESP8266_AP_TCP_Server();
 		    break;
 
 	   case '3':
-		    PC_Usart("\r\n¼´½«½øĞĞµÄ²âÊÔÊÇ£º3.STA+APÄ£Ê½£º (STA)TCP Client + (AP)TCP Server\r\n");
+		    PC_Usart("\r\nthe test mode isï¼š3.STA+APï¼š (STA)TCP Client + (AP)TCP Server\r\n");
                     ESP8266_StaTcpClient_ApTcpServer();
 		    break;
            case '4':
-                    PC_Usart("\r\n¼´½«½øĞĞµÄ²âÊÔÊÇ£ºESP8266_UdpConnectÄ£Ê½£º\r\n");
+                    PC_Usart("\r\nthe test mode isï¼šESP8266_UdpConnectï¼š\r\n");
                     ESP8266_UdpConnect();
 	   default:
 		   pNet_Test = NULL;
-		   PC_Usart("\r\nÊäÈë´íÎó£¬²»½øĞĞ²âÊÔ£¡\r\n");
+		   PC_Usart("\r\ninput Errorï¼Œit will finishï¼\r\n");
 		   break;		
 			
 	}
