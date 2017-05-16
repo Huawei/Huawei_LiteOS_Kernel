@@ -7,20 +7,20 @@
 static unsigned char mymac[6] = {0x55,0x55,0x58,0x10,0x00,0x25};
 static unsigned char myip[4] = {192,168,3,116};
 
-// ip address£¨DNS name£¬if you have£©£¬ip address must be¡°/¡± end this
+// ip addressï¼ˆDNS nameï¼Œif you haveï¼‰ï¼Œip address must beâ€œ/â€ end this
 static char baseurl[]="http://192.168.3.116/";
 
-// tcp/www port number£¬rang:1-254 
+// tcp/www port numberï¼Œrang:1-254 
 static unsigned int mywwwport =80; 
 
-// udp port number£¬Local development board port number 
+// udp port numberï¼ŒLocal development board port number 
 static unsigned int myudpport =1200; 
 
 // Send date cache 
 #define BUFFER_SIZE 1500
 static unsigned char buf[BUFFER_SIZE+1];
 
-// Password£¬Can not more than 9 chacacters.
+// Passwordï¼ŒCan not more than 9 chacacters.
 static char password[]="123456"; 
 
 
@@ -94,32 +94,32 @@ unsigned int print_webpage(unsigned char *buf,unsigned char on_off)
     plen=fill_tcp_data_p(buf,0,PSTR("HTTP/1.0 200 OK\r\nContent-Type: text/html\r\nPragma: no-cache\r\n\r\n"));
 	
     // Fill in the information in the middle of the page
-    plen=fill_tcp_data_p(buf,plen,PSTR("<center><p> LED×´Ì¬Ö¸Ê¾: "));
+    plen=fill_tcp_data_p(buf,plen,PSTR("<center><p> LED status: "));
 
     if (on_off)
     {
-        plen=fill_tcp_data_p(buf,plen,PSTR("<font color=\"#00FF00\"> ÁÁ</font>"));
+        plen=fill_tcp_data_p(buf,plen,PSTR("<font color=\"#00FF00\"> ON</font>"));
     }
     else
     {
-        plen=fill_tcp_data_p(buf,plen,PSTR("Ãğ"));
+        plen=fill_tcp_data_p(buf,plen,PSTR("OFF"));
     }
 
     plen=fill_tcp_data_p(buf,plen,PSTR(" <small><a href=\""));
     plen=fill_tcp_data(buf,plen,baseurl);		 //Enter the url in the browser 
     plen=fill_tcp_data(buf,plen,password);	         // The password must be followde
-    plen=fill_tcp_data_p(buf,plen,PSTR("\">[Ë¢ĞÂ]</a></small></p>\n<p><a href=\""));// the url looks like this http://baseurl/password/command
+    plen=fill_tcp_data_p(buf,plen,PSTR("\">[Refresh]</a></small></p>\n<p><a href=\""));// the url looks like this http://baseurl/password/command
     plen=fill_tcp_data(buf,plen,baseurl);
     plen=fill_tcp_data(buf,plen,password);
     if (on_off)
     {
-        plen=fill_tcp_data_p(buf,plen,PSTR("/0\">¹Ø±ÕLED</a><p>"));
+        plen=fill_tcp_data_p(buf,plen,PSTR("/0\">Turn off </a><p>"));
     }
     else
     {
-        plen=fill_tcp_data_p(buf,plen,PSTR("/1\">µãÁÁLED</a><p>"));
+        plen=fill_tcp_data_p(buf,plen,PSTR("/1\">Turn on </a><p>"));
     }
-    plen=fill_tcp_data_p(buf,plen,PSTR("</center><hr><br>****************^_^ »¶Ó­ÄúÊ¹ÓÃSTM32F411¿ª·¢°å^_^****************\n"));
+    plen=fill_tcp_data_p(buf,plen,PSTR("</center><hr><br>****************^_^ Hello world ^_^****************\n"));
     
     return(plen);
 }
@@ -154,7 +154,7 @@ int Web_Server(void)
     //Initialize the mac address of ENC28J60,this function must be called once. 
     enc28j60Init(mymac);
 
-    // PHY LED configration£¬LED can be used to indicate the status of the communication	
+    // PHY LED configrationï¼ŒLED can be used to indicate the status of the communication	
     enc28j60PhyWrite(PHLCON,0x476);	
 	
     //Initialize Ethernet IP layer
@@ -188,7 +188,7 @@ int Web_Server(void)
       
         if(buf[IP_PROTO_P]==IP_PROTO_ICMP_V && buf[ICMP_TYPE_P]==ICMP_TYPE_ECHOREQUEST_V)
         {
-            // a ping packet, let's send pong  DOS ÏÂµÄ ping ÃüÁî°ü	 
+            // a ping packet, let's send pong  DOS ä¸‹çš„ ping package	 
             make_echo_reply_from_request(buf, plen);          
             continue;
         }
