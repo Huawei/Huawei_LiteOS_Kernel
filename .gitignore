@@ -1,0 +1,10 @@
+/Projects/EWARM/cortex-m4/stm32f411/Application
+*.dnx
+*.xcl
+*.ps1
+*.bat
+*.wsdt
+/.vscode/c_cpp_properties.json
+/.vscode/iar-vsc.json
+*.cortex-debug.peripherals.state.json
+*.cortex-debug.registers.state.json
